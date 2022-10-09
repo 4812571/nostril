@@ -5,7 +5,6 @@ import sys
 with atheris.instrument_imports():
     from nostril import nonsense
 
-@atheris.instrument_func
 def testOneInput(data):
     fdp = atheris.FuzzedDataProvider(data)
     n_str = fdp.ConsumeUnicodeNoSurrogates(64)
