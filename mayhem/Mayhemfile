@@ -1,0 +1,6 @@
+project: nostril
+target: ratio
+
+cmds:
+  - cmd: /nostril/mayhem/fuzz.py
+    libfuzzer: true
