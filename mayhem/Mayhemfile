@@ -1,5 +1,5 @@
 project: nostril
-target: ratio
+target: fuzz
 
 cmds:
   - cmd: /nostril/mayhem/fuzz.py
